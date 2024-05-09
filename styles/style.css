@@ -34,3 +34,49 @@ body {
     color: #FFF;
     text-decoration: underline;
 }
+.header_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #C4CDD5;
+    background-color: #FFF;
+    position: fixed;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color:#161C24;
+    transition: all 0.5s;
+
+}
+.nav ul li a:hover {
+    color: red;
+}
+.header_bottom1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.home {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    
+}
