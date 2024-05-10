@@ -100,6 +100,10 @@ body {
     font-weight: 300;
 
 }
+.main-info {
+    display: flex;
+    gap: 31px;
+}
 .filter_title {
     width: 288px;
     font-size: 14px;
@@ -147,4 +151,131 @@ body {
     background-color: transparent;
     color: #161C24;
     padding: 10px 20px;
+}
+.treding-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.treding-info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #161C24;
+}
+.trediing-color {
+    color: #E44286;
+}
+.treding-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    padding: 7px 16px;
+}
+.sold {
+    width: 924px;
+    border: 1px solid aqua;
+}
+.sale {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 288px;
+}
+.sale-tre {
+    background-image: url(../images/Rectangle-1.png);
+    width: 288px;
+    height: 320px;
+    padding: 17px 12px 0 12px;
+    
+
+}
+.not {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.tre-bottom {
+    padding: 8px 10px;
+    background-color: #FFF;
+    border: none;
+}
+.tre-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #454F5B;
+}
+.tre-text {
+    font-size: 12px;
+    font-weight: 500;
+    color:#161C24;
+}
+.sale-gift {
+    padding: 6px 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    background-color: #FFF;
+}
+.tre_info {
+    font-size: 12px;
+    font-weight: 400;
+    color:#161C24;
+}
+.sold-star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding-left: 12px;
+    margin-bottom: 6px;
+}
+.star-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #454F5B;
+}
+.sold-text {
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #454F5B;
+    margin-bottom: 10px;
+    width: 264px;
+    line-height: 26px;
+}
+.sold-price {
+    padding-left: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #161C24;
+}
+.sold__price {
+    color:#454F5B;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+.sold-bordir {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+.sale-tre4 {
+    background-image: url(../images/2punt.png);
+    width: 288px;
+    height: 320px;
+    padding: 17px 12px 0 12px;
+    
+
+}
+.sale-tre5 {
+    background-image: url(../images/2quloqchin.png);
+    width: 288px;
+    height: 320px;
+    padding: 17px 12px 0 12px;
+    
+
 }
